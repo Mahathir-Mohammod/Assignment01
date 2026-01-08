@@ -212,3 +212,100 @@ header section{
     padding: 8px;
     object-fit: contain;
 }
+#feature-list {
+    width: 100%;
+    height: auto;
+    padding-top: 62px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: transparent;
+}
+.main-heading {
+    font-size: 54px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    line-height: 1.2;
+}
+.sub-text {
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+}
+.card-wrapper {
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+}
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #ffffff;
+    width: 350px;
+    min-width: 350px;
+    height: auto;
+    min-height: 300px;
+    border-radius: 8px;
+    border: 0px solid transparent;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 60px 30px 60px 30px;
+    transition: 0.3s ease;
+}
+.circle-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin-bottom: 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.icon-1 {
+    background-image: url('./Resource/assets/Vector.png');
+}
+.icon-2 {
+    background-image: url('./Resource/assets/Bookmarks.png');
+}
+.icon-3 {
+    background-image: url('./Resource/assets/Brain.png');
+}
+.icon-4 {
+    background-image: url('./Resource/assets/Info.png');
+}
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 1.5;
+}
