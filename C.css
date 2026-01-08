@@ -148,3 +148,67 @@ header section{
     color: #06b650;
     transition: 0.3s ;
 }
+.container {
+    background-color: #001a33;
+    color: white;
+    padding: 80px 120px 40px 120px;
+}
+.main-footer-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.f-img img {
+    height: 60px;
+    width: 140px;
+}
+.social-part p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.s-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.s-icons a {
+    color: #001a33;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.f-divider{
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.f-bottom {
+    text-align: center;
+}
+.f-bottom p {
+    font-size: 14px;
+    color: #FAFAFA;
+    margin: 0;
+}
+.s-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.s-icons img {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    object-fit: contain;
+}
